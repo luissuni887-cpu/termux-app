@@ -1,39 +1,24 @@
-# From https://gist.github.com/iainconnor/8605514
-# with the addition of the /captures below.
-/captures
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Built application files
-build/
-release/
-*.apk
-*.so
-.externalNativeBuild
-.cxx
-*.zip
+node_modules
+dist
+dist-ssr
+*.local
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Gradle generated files
-.gradle/
-
-# Signing files
-.signing/
-
-# Intellij
-.idea/
-*.iml
-
-# Vim
-*.swo
-*.swp
-
-# OS-specific files
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-.swp
-ehthumbs.db
-Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
